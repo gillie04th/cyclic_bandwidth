@@ -64,4 +64,6 @@ solutions parallèles.
 - https://www.cril.univ-artois.fr/~lecoutre/compets/proceedingsXCSP22.pdf
 - http://pycsp.org/documentation/solving-process/
 - https://www.section.io/engineering-education/graph-data-structure-python/#adjacency-list
-- 
+
+
+python3 first_model.py -data=data/ash85.mtx.rnd -dataparser=parser.py -ev
