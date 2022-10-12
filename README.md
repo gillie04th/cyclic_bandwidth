@@ -61,3 +61,7 @@ solutions parallèles.
 # Docs sur la cyclic-bandwidth
 - https://hal.archives-ouvertes.fr/hal-01392218
 - https://hal.archives-ouvertes.fr/hal-01166658/document
+- https://www.cril.univ-artois.fr/~lecoutre/compets/proceedingsXCSP22.pdf
+- http://pycsp.org/documentation/solving-process/
+- https://www.section.io/engineering-education/graph-data-structure-python/#adjacency-list
+- 

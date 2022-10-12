@@ -1,0 +1,11 @@
+<instance format="XCSP3" type="COP">
+  <variables>
+    <array id="x" note="x[i] is the label of the ith node" size="[219]"> 0..218 </array>
+  </variables>
+  <constraints>
+    <allDifferent> x[] </allDifferent>
+  </constraints>
+  <objectives>
+    <minimize type="maximum">  </minimize>
+  </objectives>
+</instance>
