@@ -1,0 +1,15 @@
+<instance format="XCSP3" type="COP">
+  <variables>
+    <array id="x" note="x[i] is the label of the ith node" size="[46]"> 0..45 </array>
+  </variables>
+  <constraints>
+    <allDifferent> x[] </allDifferent>
+    <nValues>
+      <list> x[] </list>
+      <condition> (gt,0) </condition>
+    </nValues>
+  </constraints>
+  <objectives>
+    <minimize type="maximum"> min(dist(x[1],x[30]),sub(46,dist(x[1],x[30]))) min(dist(x[1],x[6]),sub(46,dist(x[1],x[6]))) min(dist(x[30],x[28]),sub(46,dist(x[30],x[28]))) min(dist(x[30],x[13]),sub(46,dist(x[30],x[13]))) min(dist(x[30],x[5]),sub(46,dist(x[30],x[5]))) min(dist(x[28],x[16]),sub(46,dist(x[28],x[16]))) min(dist(x[28],x[27]),sub(46,dist(x[28],x[27]))) min(dist(x[16],x[23]),sub(46,dist(x[16],x[23]))) min(dist(x[16],x[27]),sub(46,dist(x[16],x[27]))) min(dist(x[11],x[35]),sub(46,dist(x[11],x[35]))) min(dist(x[11],x[39]),sub(46,dist(x[11],x[39]))) min(dist(x[35],x[29]),sub(46,dist(x[35],x[29]))) min(dist(x[35],x[34]),sub(46,dist(x[35],x[34]))) min(dist(x[35],x[38]),sub(46,dist(x[35],x[38]))) min(dist(x[29],x[39]),sub(46,dist(x[29],x[39]))) min(dist(x[39],x[12]),sub(46,dist(x[39],x[12]))) min(dist(x[12],x[6]),sub(46,dist(x[12],x[6]))) min(dist(x[22],x[34]),sub(46,dist(x[22],x[34]))) min(dist(x[22],x[8]),sub(46,dist(x[22],x[8]))) min(dist(x[22],x[4]),sub(46,dist(x[22],x[4]))) min(dist(x[34],x[15]),sub(46,dist(x[34],x[15]))) min(dist(x[15],x[8]),sub(46,dist(x[15],x[8]))) min(dist(x[8],x[23]),sub(46,dist(x[8],x[23]))) min(dist(x[23],x[31]),sub(46,dist(x[23],x[31]))) min(dist(x[31],x[36]),sub(46,dist(x[31],x[36]))) min(dist(x[36],x[37]),sub(46,dist(x[36],x[37]))) min(dist(x[36],x[3]),sub(46,dist(x[36],x[3]))) min(dist(x[36],x[2]),sub(46,dist(x[36],x[2]))) min(dist(x[36],x[14]),sub(46,dist(x[36],x[14]))) min(dist(x[37],x[27]),sub(46,dist(x[37],x[27]))) min(dist(x[37],x[20]),sub(46,dist(x[37],x[20]))) min(dist(x[3],x[26]),sub(46,dist(x[3],x[26]))) min(dist(x[3],x[24]),sub(46,dist(x[3],x[24]))) min(dist(x[26],x[7]),sub(46,dist(x[26],x[7]))) min(dist(x[2],x[9]),sub(46,dist(x[2],x[9]))) min(dist(x[9],x[33]),sub(46,dist(x[9],x[33]))) min(dist(x[9],x[25]),sub(46,dist(x[9],x[25]))) min(dist(x[33],x[14]),sub(46,dist(x[33],x[14]))) min(dist(x[33],x[21]),sub(46,dist(x[33],x[21]))) min(dist(x[13],x[18]),sub(46,dist(x[13],x[18]))) min(dist(x[13],x[10]),sub(46,dist(x[13],x[10]))) min(dist(x[18],x[20]),sub(46,dist(x[18],x[20]))) min(dist(x[18],x[19]),sub(46,dist(x[18],x[19]))) min(dist(x[18],x[32]),sub(46,dist(x[18],x[32]))) min(dist(x[19],x[32]),sub(46,dist(x[19],x[32]))) min(dist(x[32],x[17]),sub(46,dist(x[32],x[17]))) </minimize>
+  </objectives>
+</instance>

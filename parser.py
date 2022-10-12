@@ -7,14 +7,8 @@ next_line()
 
 data["e"] = []
 
-
 for rl in remaining_lines():
-    print(rl.split(" "))
-    print(data["e"])
-    if(not int(rl.split(" ")[0]) in data["e"]):
-        data["e"].append(int(rl.split(" ")[0]))
-    else:
-        print(data["e"][int(rl.split(" ")[0])])
-        data["e"][int(rl.split(" ")[0])].append([int(rl.split(" ")[1])])
+    data["e"].append([int(rl.split(" ")[0])])
+    data["e"][-1].append(int(rl.split(" ")[1]))
 
 print(data)
