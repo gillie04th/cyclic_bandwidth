@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# mtx.rnd files
+*.mtx.rnd
+*.mtx.xml

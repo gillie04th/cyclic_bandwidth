@@ -57,6 +57,20 @@ finis en MiniZinc, et Glucose ou MiniSAT pour le booléen. Analyser et comparer 
 
 4. Complèter ou utiliser **M2** et **M3** pour calculer la cyclic-bandwidth optimale. Décrire l’algorithme et l’implanter. Analyser et comparer les résultats sur les instances précédentes. Il est possible d’imaginer des
 solutions parallèles.
+#
+## Commandes pour l'exécution des modèles
+
+### Construction d'un modèle et résolution d'un graphe :
+
+```
+$ python3 first_model.py -data=data/ibm32.mtx.rnd -dataparser=parser.py -solve -ev
+```
+### Visualisation d'un graphe sous forme graphique :
+```
+$ python3 visualize_graph.py -data=data/ibm32.mtx.rnd -dataparser=parser.py
+```
+
+
 
 # Docs sur la cyclic-bandwidth
 - https://hal.archives-ouvertes.fr/hal-01392218
@@ -64,6 +78,3 @@ solutions parallèles.
 - https://www.cril.univ-artois.fr/~lecoutre/compets/proceedingsXCSP22.pdf
 - http://pycsp.org/documentation/solving-process/
 - https://www.section.io/engineering-education/graph-data-structure-python/#adjacency-list
-
-
-python3 first_model.py -data=data/ash85.mtx.rnd -dataparser=parser.py -ev
