@@ -2,7 +2,7 @@ from pycsp3.problems.data.parsing import *
 
 ne_line = next_line().split(" ")
 
-data["n"] = number_in(ne_line[2])
+data["n"] = number_in(ne_line[0])
 next_line()
 
 data["e"] = []
