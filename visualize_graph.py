@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 
 n, e = data
 
-print(e, n)
+#print(e, n)
 G = nx.DiGraph()
 
-seed = 1  # Seed random number generators for reproducibility
+seed = 10  # Seed random number generators for reproducibility
 G.add_edges_from(e)
 pos = nx.spring_layout(G, seed=seed)
 
@@ -30,14 +30,15 @@ edges = nx.draw_networkx_edges(
     width=2,
 )
 labels = nx.draw_networkx_labels(G,pos, font_size=12, font_color="white")
+
 # set alpha value for each edge
 for i in range(M):
     edges[i].set_alpha(edge_alphas[i])
 
-pc = mpl.collections.PatchCollection(edges, cmap=cmap)
-pc.set_array(edge_colors)
+#pc = mpl.collections.PatchCollection(edges, cmap=cmap)
+#pc.set_array(edge_colors)
 
 ax = plt.gca()
 ax.set_axis_off()
-plt.colorbar(pc, ax=ax)
+#plt.colorbar(pc, ax=ax)
 plt.show()
