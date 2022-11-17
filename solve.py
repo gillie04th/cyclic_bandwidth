@@ -6,7 +6,7 @@ from os.path import isfile, join
 ### 
 
 files = [
-    "ash85",
+    #"ash85",
     #"bcspwr01",
     #"bcspwr02",
     #"curtis54",
@@ -15,7 +15,7 @@ files = [
     #"steam3",
     #"will57",
     #"bcsstk01",
-    #"impcol_b"
+    "impcol_b"
 ]
 #files = [f for f in listdir("data/") if isfile(join("data/", f))]
 
