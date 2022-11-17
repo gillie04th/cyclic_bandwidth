@@ -46,7 +46,9 @@ où E représente l’ensemble des étiquetages.
 
    - **M2** : un modèle basé également sur des variables ”domaine fini” entières (FD), mais avec une approche très différente de M1, sans contrainte “arithmétique”, et s’intéressant à la satisfaction (i.e., recherche d’un étiquetage de cyclic-bandwidth de valeur k donnée);
 
-   - **M3** : un modèle basé sur des variables booléennes et contraintes booléennes (SAT), s’intéressant à la satisfaction (i.e., recherche d’un étiquetage de cyclic-bandwidth de valeur k donnée). Analyser et comparer les différents modèles, en terme de nombre de contraintes, de nombre de variables, de complexité des contraintes, etc.
+   - **M3** : un modèle basé sur des variables booléennes et contraintes booléennes (SAT), s’intéressant à la satisfaction (i.e., recherche d’un étiquetage de cyclic-bandwidth de valeur k donnée).
+  
+  Analyser et comparer les différents modèles, en terme de nombre de contraintes, de nombre de variables, de complexité des contraintes, etc.
 
 2. Pour chacun des modèles **M1** à **M3**, proposer des idées et les réaliser pour **casser de possibles symmétries**
 (et donc éliminer des solutions symmétriques). Comparer les possibilités entre les différents modèles.
@@ -78,3 +80,6 @@ $ python3 visualize_graph.py -data=data/ibm32.mtx.rnd -dataparser=parser.py
 - https://www.cril.univ-artois.fr/~lecoutre/compets/proceedingsXCSP22.pdf
 - http://pycsp.org/documentation/solving-process/
 - https://www.section.io/engineering-education/graph-data-structure-python/#adjacency-list
+- https://www.cril.univ-artois.fr/~lecoutre/call2022.pdf
+- https://arxiv.org/pdf/2209.00917.pdf
+- https://raw.githubusercontent.com/xcsp3team/ace/main/shortGuide.pdf

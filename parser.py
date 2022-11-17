@@ -11,4 +11,4 @@ for rl in remaining_lines():
     data["e"].append([int(rl.split(" ")[0])])
     data["e"][-1].append(int(rl.split(" ")[1]))
 
-print(data)
+#print(data)
