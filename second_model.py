@@ -1,7 +1,7 @@
 from pycsp3 import *
 
 n, e = data
-k = 8
+k = 9
 
 x = VarArray(size=n, dom=range(1,n+1))
 #y = VarArray(size=len(e), dom=range(1,CB+1))
