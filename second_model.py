@@ -7,7 +7,7 @@ x = VarArray(size=n, dom=range(1,n+1))
 
 def find(intervale):
     start = time.time()
-    k=int((intervale[1]+intervale[0])/2)
+    k=int((intervale[1]-1+intervale[0])/2)
     res = search(k)
     print("k:" + str(k) + ", res:" + str(res) + ", interval:" + str(intervale) + ", time:" + str(time.time() - start))
     if(intervale[1]-intervale[0] <= 2):
@@ -23,11 +23,11 @@ def search(k):
         for j in range(1,n+1):
             if (abs(i-j) <=k or abs(i-j)>=n-k) and i!=j:
                 z.append((i,j))
-    print(z.__sizeof__())
+    print("z:" + str(z.__sizeof__()) + " x:" + str(x.__sizeof__()))
     satisfy(
         AllDifferent(x),
         [(x[i-1], x[j-1]) in z for i,j in e]
     )
     return solve(solver=ACE, options="-t=" + str(n) + "s")
 
-find(interval)
+find([1,n])

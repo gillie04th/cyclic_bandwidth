@@ -20,7 +20,7 @@ files = [
 #files = [f for f in listdir("data/") if isfile(join("data/", f))]
 if(sys.argv[1] != "third"):
     for file in files:
-        os.system('python3 ' + sys.argv[1] + '_model.py -data=data/' + file + '.mtx.rnd -dataparser=parser.py -solver=[ace,v,args="-t=' + sys.argv[2] + 's"]')
+        os.system('python3 ' + sys.argv[1] + '_model.py -data=data/' + file + '.mtx.rnd -dataparser=parser.py -solver=[ace,v,args="-t=' + sys.argv[2] + 's"] -ev')
 else:
     for file in files:
         os.system('python3 ' + sys.argv[1] + '_model.py -data=data/' + file + '.mtx.rnd -dataparser=parser.py')
