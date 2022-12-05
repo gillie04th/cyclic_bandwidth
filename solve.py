@@ -10,9 +10,9 @@ files = [
     #"bcspwr01",
     #"bcspwr02",
     #"curtis54",
-    "ibm32",        # 9 pour le min en model2
+    #"ibm32",        # 9 pour le min en model2
     #"pores_1",
-    #"steam3",
+    "steam3",
     #"will57",
     #"bcsstk01",
     #"impcol_b"
