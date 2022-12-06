@@ -71,6 +71,8 @@ $ python3 first_model.py -data=data/ibm32.mtx.rnd -dataparser=parser.py -solve -
 ```
 $ python3 visualize_graph.py -data=data/ibm32.mtx.rnd -dataparser=parser.py
 ```
+### Lancer le second modèle et extraire le résultat dans un fichier :
+$ python3 solve.py second 1600 > output$(date +"%s").txt
 
 
 
