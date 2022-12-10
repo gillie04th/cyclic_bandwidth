@@ -22,6 +22,7 @@ def find(intervale):
     print("e:" + str(len(e)) + " z:" + str(len(z)) + " x:" + str(len(x)))
     satisfy(
         AllDifferent(x),
+        x[0]==1,
         [(x[i-1], x[j-1]) in z for i, j in e]
     )
     res = solve(solver=ACE, options="-t=" + str(len(e)) + "s", sols=1)

@@ -6,7 +6,7 @@ from os.path import isfile, join
 ### 
 
 files = [
-    "ash85",
+    #"ash85",
     #"bcspwr01",
     #"bcspwr02",
     #"curtis54",
@@ -18,7 +18,7 @@ files = [
     ##"impcol_b",
     #"bcspwr03",
     #"bcsstk22",
-    ##"dwt__234",
+    "dwt__234",
     ##"nos4",
 
 ]

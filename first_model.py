@@ -6,9 +6,9 @@ n, e = data
 x = VarArray(size=n, dom=range(1,n+1))
 
 satisfy(
-    AllDifferent(x)
-    #x[0]==1,
-    #x[0]<x[n-1],
+    AllDifferent(x),
+    x[0]==1,
+    x[0]<x[n-1],
 )
 
 minimize(
